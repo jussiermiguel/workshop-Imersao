@@ -1,0 +1,33 @@
+-Exercícios:  
+
+https://www.beecrowd.com.br/judge/en/login 
+
+https://github.com/rmveiga/exercicios_python 
+
+ 
+GIT: 
+
+DOCUMENTAÇÃO - https://git-scm.com/docs 
+
+@rafaellaballerini 
+
+https://www.youtube.com/watch?v=DqTITcMq68k 
+
+https://www.youtube.com/watch?v=UBAX-13g8OM 
+
+
+PYTHON: 
+
+DOCUMENTAÇÃO - https://docs.python.org/pt-br/3/ 
+
+@pythonando 
+
+@CursoemVideo 
+
+Luiz Otávio Miranda - https://www.udemy.com/course/python-3-do-zero-ao-avancado/
+
+APRENDA PYTHON EM 1 HORA!
+link: https://www.youtube.com/watch?v=xiPpzeaJlS0&ab_channel=CanalDevPro
+
+Django Rest Framework em 30 minutos ( ou quase isso )
+link: https://www.youtube.com/watch?v=gFsIGJR5R8I&ab_channel=DjangoMoc

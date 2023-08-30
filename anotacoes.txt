@@ -1,0 +1,17 @@
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
+
+python -m venv venv			>criando venv
+.\venv\Scripts\activate			>ativando a venv
+pip install django			>instalando django
+pip install djangorestframework		>instalando django rest
+django-admin startproject agenda .#ponto>criando projeto
+criar pasta apps na pasta projeto
+priar arquivo .gitignore
+no arquivo .gitignore digitar:
+	venv
+
+	*.sqlite3
+
+	__pycache__
+

@@ -150,5 +150,34 @@ urlpatterns = [
 python .\manage.py runserver
 127.0.0.1:8000\agenda
 
+
+
+RELACIONAMENTOS DE TABELAS
+abrir \todo> models.py
+	from apps.users.models import User
+dentro da classe
+	user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+						ou	Set PROt
+makemigrations
+migrate
+
+
+
+ir em serializer e adicionar "user" no campo field
+
+
+importar User \user admin.py
+from .models import User
+@admin.register(User)
+class UserAdmin(admin.ModelAdmin):
+    model = User
+    
+    fields = ["name", "email"]
 	
 	
+createsuperuser
+ir em 127.0.0.1:8000/admin
+
+\user models.py
+  def __str__(self):
+        return self.name
